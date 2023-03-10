@@ -1,0 +1,16 @@
+.filterName {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  align-items: center;
+  font-size: large;
+  text-align: left;
+  border: 1px solid rgb(185, 185, 185);
+  outline: none;
+}
+
+.filterName:focus {
+  border: 3px solid rgb(96, 166, 206);
+  box-shadow: rgb(96 166 206 / 40%) 3px 3px 3px 3px;
+  border-radius: 5px;
+}

@@ -56,7 +56,6 @@ export const ContactForm = ({ handleSubmit }) => {
     </form>
   );
 };
-
 ContactForm.propTypes = {
   handleSubmit: propTypes.func.isRequired,
 };
